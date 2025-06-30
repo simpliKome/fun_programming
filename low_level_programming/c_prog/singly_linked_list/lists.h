@@ -27,5 +27,7 @@ size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
 /* 	Function that adds a new node to the head of a linked list list_t  */
 list_t *add_node(list_t **head, const char *str);
+/*	Function that adds a new node at the end of a linked list list_t  */
+list_t *add_node_end(list_t **head, const char *str);
 
 #endif	/*  LISTS_H	  */
