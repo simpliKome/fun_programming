@@ -23,6 +23,9 @@ typedef struct list_s
 
 /*	Function Print All elements in a linked list list_t   */
 size_t print_list(const list_t *h);
+/*	Function that finds the length of a linked list list_t  */
 size_t list_len(const list_t *h);
+/* 	Function that adds a new node to the head of a linked list list_t  */
+list_t *add_node(list_t **head, const char *str);
 
 #endif	/*  LISTS_H	  */
