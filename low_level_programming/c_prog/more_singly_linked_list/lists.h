@@ -34,6 +34,10 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 /*	Function that frees a listint_t list  */
 void free_listint(listint_t *head);
 
+/*	Function that frees a listint_t lists and points head to NULL  */
+void free_listint2(listint_t **head);
 
+/*	Function that deletes the head of a linked list node  */
+int pop_listint(listint_t **head);
 
 #endif	/*  LISTS_H  */
