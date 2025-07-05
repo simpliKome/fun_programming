@@ -40,4 +40,12 @@ void free_listint2(listint_t **head);
 /*	Function that deletes the head of a linked list node  */
 int pop_listint(listint_t **head);
 
+/*	Function that retrieves nth node  */
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
+
+/*	Function that sums a listint_t list  */
+int sum_listint(listint_t *head);
+
+
+
 #endif	/*  LISTS_H  */
