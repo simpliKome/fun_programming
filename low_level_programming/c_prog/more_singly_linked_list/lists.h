@@ -49,5 +49,7 @@ int sum_listint(listint_t *head);
 /*	Function that inserts node at nth index  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 
+/*	Function that deletes node at nth index  */
+int delete_nodeint_at_index(listint_t **head, unsigned int index);
 
 #endif	/*  LISTS_H  */
